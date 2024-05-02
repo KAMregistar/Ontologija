@@ -1,0 +1,1150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.registar.kam.hr/"
+     xml:base="http://www.registar.kam.hr/"
+     xmlns:ont="http://www.registar.kam.hr/ontologies/ont.owl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.registar.kam.hr/">
+        <rdfs:comment>Identifikacija i opis građe koja se prikuplja, pohranjuje, obrađuje, štiti, istražuje, predstavlja i stavlja na raspolaganje korisnicima u knjižnicama, arhivima i muzejima Republike Hrvatske kao samostalnim ustanovama ili ustrojbenim jedinicama unutar ustanovâ, tvrtki i drugih pravnih osoba.</rdfs:comment>
+        <owl:versionInfo>Trenuna inačica ontologije v.1.01</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.registar.kam.hr/ontologies/ont.owl/ID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.registar.kam.hr/ontologies/ont.owl/ID"/>
+    
+
+
+    <!-- http://www.registar.kam.hr/ontologies/ont.owl/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.registar.kam.hr/ontologies/ont.owl/definition"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#domain -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#range -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#range"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subPropertyOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20019 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20019">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20020"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20019</ont:ID>
+        <ont:definition>Povezuje djelo s djelom koji mu je izvorno dio.</ont:definition>
+        <rdfs:label>ima dio djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20020 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20020">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:definition>Povezuje djelo s djelom kojega je izvorno dio.</ont:definition>
+        <rdfs:label>je dio djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20021 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20021">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20022"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20021</ont:ID>
+        <ont:definition>Povezuje djelo s djelom koje je nastalo kao prilog ili dopuna tome djelu.</ont:definition>
+        <rdfs:label>je dopuna djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20022 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20022">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20022</ont:ID>
+        <ont:definition>Povezuje djelo s djelom kojega je prilog ili dopuna.</ont:definition>
+        <rdfs:label>ima dopunu djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20023 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20023">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20024"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20023</ont:ID>
+        <ont:definition>Povezuje djelo s djelom čiji sadržaj prethodi drugom djelu.</ont:definition>
+        <rdfs:label>prethodi djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20024 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20024">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20024</ont:ID>
+        <ont:definition>Povezuje djelo s djelom čiji se sadržaj nastavlja u drugom djelu.</ont:definition>
+        <rdfs:label>slijedi djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20025 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20025">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20026"/>
+        <ont:ID>kamd:P20025</ont:ID>
+        <ont:definition>Povezuje djelo s djelom koje je prerađeno u novo djelo prilagodbom drugoj vrsti publike ili promjenom oblika sadržaja, žanra, stila, narativnih elemenata i sl.</ont:definition>
+        <rdfs:label>je prerađeno u djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20026 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20026">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20026</ont:ID>
+        <ont:definition>Povezuje djelo koje je prerađeno u novo djelo prilagodbom drugoj vrsti publike ili promjenom oblika sadržaja, žanra, stila, narativnih elemenata i sl. s izvornim djelom.</ont:definition>
+        <rdfs:label>je preradba djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20027 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20027">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20028"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:20027</ont:ID>
+        <ont:definition>Povezuje djelo s djelom ili dijelom djela koje ga preuzima, citira ili oponaša.</ont:definition>
+        <rdfs:label>je prisvojeno u djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20028 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20028">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20028</ont:ID>
+        <ont:definition>Povezuje djelo ili dio djela s djelom koje ga je preuzelo, citiralo ili oponašalo.</ont:definition>
+        <rdfs:label>prisvaja djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20029 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20029">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20030"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20029</ont:ID>
+        <ont:definition>Povezuje djelo s djelom koje je stvoreno promjenom plana izdavanja i/ili uredničke politike.</ont:definition>
+        <rdfs:label>je promijenjeno u djelo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20030 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20030">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:20030</ont:ID>
+        <ont:definition>Povezuje djelo koje je stvoreno promjenom plana izdavanja i/ili uredničke politike jednoga djela stvoreno s izvornim djelom.</ont:definition>
+        <rdfs:label>je nastalo promjenom djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20031 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20031">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <owl:inverseOf rdf:resource="http://www.kamregistry.info/Elements/d/P20032"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20031</ont:ID>
+        <ont:definition>Povezuje djelo koje je prostorni objekt (skulptura, uporabni predmet ili sl.) oblikovan s namjerom da vjerno prenese izgled drugog prostornog objekta s izvornim djelom.</ont:definition>
+        <rdfs:label>je replika djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20032 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20032">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20032</ont:ID>
+        <ont:definition>Povezuje izvorno djelo koje je prostorni objekt (skulptura, uporabni predmet ili sl.)  s djelom oblikovanim s namjerom da vjerno prenese izgled drugog prostornog objekta.</ont:definition>
+        <rdfs:label>je replicirano u djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20033 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20033">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20017"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kamd:P20033</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom.</ont:definition>
+        <rdfs:label>je djelo povezano s izrazom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20034 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20034">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20033"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kamd:P20034</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom kroz koji je realizirano.</ont:definition>
+        <rdfs:label>je realizirano u izrazu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20035 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20035">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20017"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kamd:P20035</ont:ID>
+        <ont:definition>Povezuje djelo s agentom.</ont:definition>
+        <rdfs:label>je djelo povezano s agentom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20036 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20036">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20035"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10007"/>
+        <ont:ID>kamd:P20036</ont:ID>
+        <ont:definition>Povezuje djelo s osobom.</ont:definition>
+        <rdfs:label>je povezano s osobom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20037 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20037">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20035"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <ont:ID>kamd:P20037</ont:ID>
+        <ont:definition>Povezuje djelo s kolektivnim agentom.</ont:definition>
+        <rdfs:label>je povezano s kolektivnim agentom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20038 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20038">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20037"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10009"/>
+        <ont:ID>kamd:P20038</ont:ID>
+        <ont:definition>Povezuje djelo s korporativnim tijelom.</ont:definition>
+        <rdfs:label>je povezano s korporativnim tijelom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20040 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20040">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20035"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10006"/>
+        <ont:ID>kamd:P20040</ont:ID>
+        <ont:definition>Povezuje djelo s agentom čije se ovlasti, funkcije i odgovornosti temelje na djelu.</ont:definition>
+        <rdfs:label>ima agenta čije ovlasti proizlaze iz djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20041 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20041">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20040"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10007"/>
+        <ont:ID>P20041</ont:ID>
+        <ont:definition>Povezuje djelo s osobom čije se ovlasti, funkcije i odgovornosti temelje na djelu.</ont:definition>
+        <rdfs:label>ima osobu čije ovlasti proizlaze iz djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/d/P20042 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/d/P20042">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20040"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <ont:ID>kamd:P20042</ont:ID>
+        <ont:definition>Povezuje djelo s kolektivnim agentom čije se ovlasti, funkcije i odgovornosti temelje na djelu.</ont:definition>
+        <rdfs:label>ima kolektivnog agenta čije ovlasti proizlaze iz djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/i/P30001 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/i/P30001">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kami:P30001</ont:ID>
+        <ont:definition>Povezuje izraz s izrazom, nadziranim nazivom, kôdom, identifikatorom ili drugom oznakom koja označava jezik tekstualnog sadržaja jedinice građe.</ont:definition>
+        <rdfs:label>ima jezik sadržaja</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/jo/P0039 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/jo/P0039">
+        <rdfs:subPropertyOf rdf:resource="http://www.kamregistry.info/Elements/d/P20027"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10010"/>
+        <ont:ID>kamd:P20039</ont:ID>
+        <ont:definition>Povezuje djelo s obitelji.</ont:definition>
+        <rdfs:label>je povezano s obitelji</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/jo/P20021 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/jo/P20021">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20021</ont:ID>
+        <ont:definition>Povezuje djelo s djelom koje je nastalo kao prilog ili dopuna tome djelu.</ont:definition>
+        <rdfs:label>je dopuna djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/jo/P30002 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/jo/P30002">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <rdfs:label>ima napomenu o jeziku sadržaja</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kamregistry.info/Elements/jo/P30003 -->
+
+    <owl:ObjectProperty rdf:about="http://www.kamregistry.info/Elements/jo/P30003">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kami:P30003</ont:ID>
+        <ont:definition>Povezuje izraz s izrazom, nadziranim nazivom, kôdom, identifikatorom ili drugom oznakom za jezik kojim je izvorno zabilježen sadržaj jedinice građe.</ont:definition>
+        <rdfs:label>ima jezik izvornika</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20001 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20001">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20001</ont:ID>
+        <ont:definition>Povezuje djelo s nadziranim nazivom, kôdom ili drugom oznakom koja označava razinu specifičnosti opisa djela u informacijskom sustavu, uključujući položaj unutar hijerarhije djelâ koja su s njim povezana odnosom cjeline i dijela.</ont:definition>
+        <rdfs:label>ima razinu opisa djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20002 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20002">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamjo:P20002</ont:ID>
+        <ont:definition>Povezuje djelo s kratkim nestrukturiranim tekstom koji objašnjava o čemu je ili što prikazuje jedinica građe.</ont:definition>
+        <rdfs:label>ima opis sadržaja djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20003 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20003">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamjo:P20003</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom koji je naveden na kartografskoj jedinici građe, a označava položaj mjesta prikazanog na karti Zemlje ili nekog drugog nebeskog tijela, mjereno od početnog meridijana u pravcu istoka ili zapada te od ekvatora u pravcu sjevera ili juga.</ont:definition>
+        <rdfs:label>ima geografsku dužinu i geografsku širinu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20004 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20004">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20311"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:label>ima napomenu o geografskoj dužini i geografskoj širini</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20005 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20005">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20005</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom koji je naveden na kartografskoj jedinici građe, a označava položaj područja neba: kutnu udaljenost mjerenu prema istoku na ekvatoru od proljetne ravnodnevice do satnog kruga nebeskog tijela, od 0 do 24 sata, te kutnu udaljenost do nebeskog tijela mjerenu sjeverno ili južno pomoću 90˚ od nebeskog ekvatora uzduž kruga tijela u satu.</ont:definition>
+        <rdfs:label>ima rektascenziju i deklinaciju</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20006 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20006">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20006</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom koji se javlja na kartografskoj jedinici građe, a označava jednu ili dvije točke sjecišta ekliptičnog i nebeskog ekvatora, zauzetog Suncem kad je njegova deklinacija 0˚.</ont:definition>
+        <rdfs:label>ima ravnodnevicu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20007 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20007">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20007</ont:ID>
+        <ont:definition>Povezuje djelo s  izrazom, nadziranim nazivom, kodom, identifikatorom ili drugom oznakom koja označava društvenu skupinu kojoj je djelo sadržano u jedinici građe primarno namijenjeno ili za koju se smatra prikladnim s obzirom na dob, zanimanje, stupanj obrazovanja, posebne intelektualne ili društvene potrebe i druge značajke.</ont:definition>
+        <rdfs:label>ima ciljanu publiku djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20008 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20008">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20311"/>
+        <ont:ID>kamd:P20008</ont:ID>
+        <ont:definition>Povezuje djelo s kratkim nestrukturiranim tekstom u kojemu se navode objašnjenja, tumačenja i druge pojedinosti o društvenoj skupini za koju je djelo sadržano u jedinici građe primarno namijenjeno ili za koju se smatra prikladnim.</ont:definition>
+        <rdfs:label>ima napomenu o ciljanoj publici djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20009 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20009">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20009</ont:ID>
+        <ont:definition>Povezuje djelo s tekstom koji identificira politički, društveni, ekonomski, kulturni, vjerski ili drugi događaj ili situaciju koja je potaknula stvaranje jedinice građe.</ont:definition>
+        <rdfs:label>ima povod nastanka</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20010 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20010">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20010</ont:ID>
+        <ont:definition>Povezuje djelo s nadziranim nazivom, identifikatorom ili drugom nadziranom oznakom koja označava nagrade i priznanja dodijeljene jedinici građe, uključujući nagrade i priznanja na festivalima, izložbama, salonima, sajmovima i drugim strukovnim ili prigodnim manifestacijama.</ont:definition>
+        <rdfs:label>ima nagrade</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20011 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20011">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20311"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20011</ont:ID>
+        <ont:definition>Povezuje djelo s nestrukturiranim tekstom koji sadržava pojedinosti o nagradama i priznanjima dodijeljenima djelu sadržanom u jedinici građe, uključujući nagrade i priznanja na festivalima, izložbama, salonima, sajmovima i drugim strukovnim ili prigodnim manifestacijama.</ont:definition>
+        <rdfs:label>ima napomenu o nagradama</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20012 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20012">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20012</ont:ID>
+        <ont:definition>Povezuje djelo sa strukturiranim ili nestrukturiranim tekstom u kojemu se objašnjava sadašnji i/ili planirani sustav organizacije fonda ili zbirke.</ont:definition>
+        <rdfs:label>ima plan sređivanja</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20013 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20013">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20013</ont:ID>
+        <ont:definition>Povezuje djelo s tekstom koji pruža informacije o mogućem dopunjavanju arhivskog fonda.</ont:definition>
+        <rdfs:label>ima dopune</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20014 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20014">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20014</ont:ID>
+        <ont:definition>Povezuje djelo s kratkim nestrukturiranim tekstom koji sadržava podatke o vrednovanju, odabiranju i izlučivanju građe iz cjeline arhivskog gradiva te o učincima tih postupaka.</ont:definition>
+        <rdfs:label>ima odabir, izlučivanje i rokove čuvanja</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20015 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20015">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20015</ont:ID>
+        <ont:definition>Povezuje djelo s izrazom ili tekstom koji sadržava informacije o predviđenom vremenskom rasponu izlaženja narednog dijela serijske publikacije ili osuvremenjivanja integrirajuće publikacije.</ont:definition>
+        <rdfs:label>ima učestalost izlaženja ili osuvremenjivanja</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20016 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20016">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20016</ont:ID>
+        <ont:definition>Povezuje djelo s tekstom koji sadržava pojedinosti o nastanku, recepciji i interpretaciji djela.</ont:definition>
+        <rdfs:label>ima povijest djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20017 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20017">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <owl:inverseOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10004"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamd:P20017</ont:ID>
+        <ont:definition>Povezuje djelo s jedinicom opisa.</ont:definition>
+        <rdfs:label>je djelo povezano s jedinicom opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20018 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20018">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/d/P20017"/>
+        <owl:inverseOf rdf:resource="http://www.registar.kam.hr/Element/d/P20018"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamd:P20018</ont:ID>
+        <ont:definition>Povezuje djelo s djelom.</ont:definition>
+        <rdfs:label>je djelo povezano s djelom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/d/P20311 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/d/P20311">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10022"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamd:P20311</ont:ID>
+        <ont:definition>Povezuje djelo s kratkim tekstom o općim svojstvima djela.</ont:definition>
+        <rdfs:label>ima napomenu o djelu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10001 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10001">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamjo:P10001</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s vrstom kojoj jedinica opisa pripada.</ont:definition>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10001</rdfs:isDefinedBy>
+        <rdfs:label>ima kategoriju jedinice opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10002 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10002">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamjo:P10002</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s entitetom koji je u odnosu s jedinicom opisa.</ont:definition>
+        <rdfs:label>ima srodni entitet jedinici opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10003 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10003">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10002"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamjo:P10003</ont:ID>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10003</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">je jedinica opisa povezana s jedinicom opisa</rdfs:label>
+        <owl:backwardCompatibleWith>je jedinica opisa povezana s jedinicom opisa</owl:backwardCompatibleWith>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10004 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10004">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamjo:P10004</ont:ID>
+        <rdfs:comment>Povezuje jedinicu opisa s djelom.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10004</rdfs:isDefinedBy>
+        <rdfs:label>je jedinica opisa povezana s djelom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10005 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10005">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10003"/>
+        <ont:ID>kamjo:P10005</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s izrazom.</ont:definition>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10005</rdfs:isDefinedBy>
+        <rdfs:label>je jedinica opisa povezana s izrazom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10006 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10006">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10004"/>
+        <ont:ID>kamjo:P10006</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s pojavnim oblikom.</ont:definition>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10006</rdfs:isDefinedBy>
+        <rdfs:label>je jedinica opisa povezana s pojavnim oblikom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10007 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10007">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10005"/>
+        <ont:ID>kamjo:P10007</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s primjerkom.</ont:definition>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/jo/P10007</rdfs:isDefinedBy>
+        <rdfs:label>je jedinica opisa povezana s primjerkom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10008 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10008">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10006"/>
+        <ont:ID>kamjo:P10008</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s agentom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s agentom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10009 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10009">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10008"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10007"/>
+        <ont:ID>kamjo:P10009</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s osobom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s osobom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10010 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10010">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10008"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <ont:ID>kamjo:P10010</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s kolektivnim agentom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s kolektivnim agentom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10011 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10011">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10010"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10009"/>
+        <ont:ID>kamjo:P10011</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s korporativnim tijelom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s korporativnim tijelom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10012 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10012">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10010"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10010"/>
+        <ont:ID>kamjo:P10012</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s obitelji.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s obitelji</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10013 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10013">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10011"/>
+        <ont:ID>kamjo:P10013</ont:ID>
+        <ont:definition>Povezuje jedinicu opis s mjestom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s mjestom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10014 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10014">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10012"/>
+        <ont:ID>kamjo:P10014</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s vremenskim rasponom.</ont:definition>
+        <rdfs:label>je jedinica opisa povezana s vremenskim rasponom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10015 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10015">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10003"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10015</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s nomenom.</ont:definition>
+        <rdfs:label>ima nomen za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10016 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10016">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10015"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10016</ont:ID>
+        <rdfs:comment>Povezuje jedinicu opisa s imenom, nazivom ili drugom oznakom pomoću koje se u informacijskom sustavu identificira jedinica opisa i/ili pronalaze i okupljaju podaci o jedinici opisa.</rdfs:comment>
+        <rdfs:label>ima oznaku za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10017 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10017">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10016"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10017</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s nadziranom pristupnicom koja je preuzeta iz nadziranog rječnika ili oblikovana prema određenim pravilima.</ont:definition>
+        <rdfs:label>ima nadziranu pristupnicu za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10018 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10018">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10017"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10018</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s usvojenom pristupnicom koja unutar nekog sustava jednoznačno identificira jedinicu opisa i okuplja podatke o jedinici opisa.</ont:definition>
+        <rdfs:label>ima usvojenu pristupnicu za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10019 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10019">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10017"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10019</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s varijantnom pristupnicom koja nije odabrana za usvojenu pristupnicu.</ont:definition>
+        <rdfs:label>ima varijantnu pristupnicu za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10020 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10020">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10016"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10013"/>
+        <ont:ID>kamjo:P10020</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s brojčanom ili slovno-brojčanom oznakom, namijenjenoj strojnoj ili ljudskoj uporabi, koji unutar određenog sustava jednoznačno identificira jedinicu opisa.</ont:definition>
+        <rdfs:label>ima identifikator za jedinicu opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10021 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10021">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10004"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <rdfs:range rdf:resource="http://www.registar.kam.hr/Element/c/#C10002"/>
+        <ont:ID>kamjo:P10021</ont:ID>
+        <rdfs:comment>Povezuje jedinicu opisa s izrazom, nadziranim nazivom, imenom, naslovom, identifikatorom ili drugom nadziranom oznakom koja označava temu kojom se bavi ili koju prikazuje djelo.</rdfs:comment>
+        <rdfs:label>je jedinica opisa predmet djela</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10022 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10022">
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamjo:P10022</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s bilo kojom informacijom o jedinici opisa koja nije zabilježena uporabom specifičnih atributa i/ili odnosa.</ont:definition>
+        <rdfs:label>ima napomenu o jedinici opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/jo/P10023 -->
+
+    <owl:ObjectProperty rdf:about="http://www.registar.kam.hr/Element/jo/P10023">
+        <rdfs:subPropertyOf rdf:resource="http://www.registar.kam.hr/Element/jo/P10022"/>
+        <rdfs:domain rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamjo:P10023</ont:ID>
+        <ont:definition>Povezuje jedinicu opisa s kratkim nestrukturiranim tekstom koji sadržava pojedinosti o odnosu između jedinice opisa i druge jedinice opisa ili više drugih jedinica opisa.</ont:definition>
+        <rdfs:label>ima napomenu o odnosu jedinice opisa i drugih jedinica opisa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10001 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10001">
+        <ont:ID>kamjo:C10001</ont:ID>
+        <ont:definition xml:lang="hr"></ont:definition>
+        <ont:definition xml:lang="hr">Entitet koji se identificira i opisuje u informacijskom sustavu knjižnice, arhiva ili muzeja.</ont:definition>
+        <rdfs:comment xml:lang="hr">Jedinica opisa može biti jedinica građe: djelo, izraz, pojavni oblik i primjerak, agent: osoba, kolektivni agent: korporativno tijelo i obitelj, mjesto, vremenski raspon i nomen.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10001</rdfs:isDefinedBy>
+        <rdfs:label>Jedinica opisa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10002 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10002">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamd:C10002</ont:ID>
+        <ont:definition>Idejni sadržaj jedinice građe, koji jedinicu građe čini prepoznatljivom konceptualnom cjelinom.</ont:definition>
+        <rdfs:comment>Djelo se može javiti u različitim verzijama ili na različitim medijima. Svojstva djela ostaju nepromijenjena bez obzira na izraz ili pojavni oblik u kojemu se djelo javlja. Djelo nastaje djelovanjem jednoga ili više agenata. Agenti mogu biti poznati ili nepoznati (neutvrđeni). Djelo može i ne mora nastati s određenom intelektualnom i/ili umjetničkom namjerom. Djelo može biti nedovršeno.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.registar.kam.hr/Element/c/#C10002</rdfs:isDefinedBy>
+        <rdfs:label>Djelo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10003 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10003">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kami:C10003</ont:ID>
+        <ont:definition>Niz znakova određenog znakovnog sustava (riječi, rečenica, brojki, pokreta, oblika, tonova, melodija, kadrova itd.) putem kojih je realizirano i priopćeno djelo.</ont:definition>
+        <rdfs:comment>Isti izraz djela može se javiti u različitim formatima i izdanjima, na različitim materijalnim nositeljima itd. Svojstva izraza ostaju nepromijenjena bez obzira na pojavni oblik u kojemu se izraz javlja. Djelo može postojati: u samo jednom, izvornom izrazu (npr. ulje na platnu, skulptura, ručno oblikovan uporabni predmet), u izvornom izrazu i različitim varijantama (npr. tekst u izvornom obliku i prijevodu; skladba za izvorni izvođački sastav i u drugom aranžmanu).</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10003</rdfs:isDefinedBy>
+        <rdfs:label>Izraz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10004 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10004">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kampo:C10004</ont:ID>
+        <ont:definition>Skup svih materijalnih objekata koji utjelovljuju isto djelo i nastali su ili združeni kao rezultat aktivnosti istog agenta.</ont:definition>
+        <rdfs:comment>Kod ručno izrađenih objekata pojavni oblik postoji samo u jednom primjerku. Objekti nastali mehaničkim umnožavanjem, posebice u procesu industrijske proizvodnje, tvore pojavni oblik koji se sastoji od više identičnih primjeraka (npr. izdanje ili proizvodna serija).</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10004</rdfs:isDefinedBy>
+        <rdfs:label>Pojavni oblik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10005 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10005">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamp:C10005</ont:ID>
+        <ont:definition>Pojedačni materijalni nositelj.</ont:definition>
+        <rdfs:comment>Primjerak može biti: predstavnik pojavnog oblika koji postoji u samo jednom primjerku (npr. umjetnička slika, skulptura, ručno oblikovani umjetnički ili uporabni predmet itd.), predstavnik mehanički umnoženoga skupnog ili pojedinačnog pojavnog oblika, koji postoji u više identičnih primjeraka (npr. izdanje ili proizvodne serija).</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10005</rdfs:isDefinedBy>
+        <rdfs:label>Primjerak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10006 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10006">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kama:C10006</ont:ID>
+        <ont:definition>Osoba ili skupina osoba sposobnih za voljno djelovanje i preuzimanje prava i odgovornosti, što za posljedicu ima stvaranje, preinaku, posjedovanje i druge aktivnosti povezane s jedinicom građe.</ont:definition>
+        <rdfs:comment>Agent može biti: osoba: odnosno pojedinačno ljudsko biće čije se postojanje može dokazati ili se opravdano pretpostavlja; kolektivni agent: odnosno skupina osoba i/ili organizacijâ koja organizirano djeluje kao cjelina pod zajedničkim imenom.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10006</rdfs:isDefinedBy>
+        <rdfs:label>Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10007 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10007">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10006"/>
+        <owl:disjointWith rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <ont:ID>kamo:C10007</ont:ID>
+        <ont:definition>Pojedinačno ljudsko biće čije se postojanje može dokazati ili se opravdano pretpostavlja.</ont:definition>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/o/#C10007</rdfs:isDefinedBy>
+        <rdfs:label>osoba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10008 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10008">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10006"/>
+        <ont:ID>kamka:C10008</ont:ID>
+        <ont:definition>Skupina osoba i/ili organizacijâ koja organizirano djeluje kao cjelina pod zajedničkim imenom.</ont:definition>
+        <rdfs:comment>Kolektivni agent može biti: korporativno tijelo i obitelj.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/ka/#C10008</rdfs:isDefinedBy>
+        <rdfs:label>kolektivni agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10009 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10009">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <owl:disjointWith rdf:resource="http://www.registar.kam.hr/Element/c/#C10010"/>
+        <ont:ID>kamkt:C10009</ont:ID>
+        <ont:definition>Skupina osoba koje organizirano djeluju pod zajedničkim imenom, a ne predstavljaju se kao obitelj.</ont:definition>
+        <rdfs:comment>Korporativna tijela uključuju: korporativna tijela u užem smislu, grupe i korporativne sastanke.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/kt/#C10009</rdfs:isDefinedBy>
+        <rdfs:label>korporativno tijelo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10010 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10010">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10008"/>
+        <ont:ID>kamob:C10010</ont:ID>
+        <ont:definition>skupina od dviju ili više osoba koje su povezane zajedničkom linijom predaka, rođenjem, brakom, posvojenjem, registriranom zajednicom ili sličnim pravnim statusom ili se na neki drugi način predstavljaju kao obitelj.</ont:definition>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/o/#C10010</rdfs:isDefinedBy>
+        <rdfs:label>obitelj</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10011 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10011">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamm:C10011</ont:ID>
+        <ont:definition>Dio fizičkog prostora na Zemlji ili izvan nje.</ont:definition>
+        <rdfs:comment>Mjesta mogu biti prirodna (fizičko-geografska) ili društveno-geografska područja.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10011</rdfs:isDefinedBy>
+        <rdfs:label>Mjesto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10012 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10012">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamvr:C10012</ont:ID>
+        <ont:definition>Protok vremena koji ima mjerljivo trajanje, bez obzira kako kratko ili dugo, i može se identificirati početkom i krajem.</ont:definition>
+        <rdfs:comment>Vremenski raspon uključuje geološka razdoblja, povijesna razdoblja, tisućljeća, stoljeća, desetljeća, godine i njihove raspone, nadnevke, sate, minute i sekunde.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10012</rdfs:isDefinedBy>
+        <rdfs:label>Vremenski raspon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.registar.kam.hr/Element/c/#C10013 -->
+
+    <owl:Class rdf:about="http://www.registar.kam.hr/Element/c/#C10013">
+        <rdfs:subClassOf rdf:resource="http://www.registar.kam.hr/Element/c/#C10001"/>
+        <ont:ID>kamn:C10013</ont:ID>
+        <ont:definition>Veza između entiteta i oznake na koja se na njega odnosi.</ont:definition>
+        <rdfs:comment>Nomen povezuje bilo koji naziv (tj., kombinaciju znakova) koji se upotrebljava za upućivanje na instancu bilo kojeg entiteta koji se pronađe u bibliografskom univerzumu s tim entitetom. Svaki entitet na koji se upućuje u univerzumu govora imenovan je barem jednim nomenom.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.kamregistar.info/Element/c/#C10013</rdfs:isDefinedBy>
+        <rdfs:label>Nomen</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <rdfs:comment>Mjesto je dio fizičkog prostora na Zemlji ili izvan nje. Mitska, legendarna, izmišljena i fikcionalizirana područja na Zemlji ili izvan nje ne smatraju se mjestima.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.registar.kam.hr/Element/c/#C10002"/>
+            <rdf:Description rdf:about="http://www.registar.kam.hr/Element/c/#C10003"/>
+            <rdf:Description rdf:about="http://www.registar.kam.hr/Element/c/#C10004"/>
+            <rdf:Description rdf:about="http://www.registar.kam.hr/Element/c/#C10005"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
